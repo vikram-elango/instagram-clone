@@ -1,0 +1,228 @@
+
+.profile-pic{
+    width: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+
+    
+    
+}
+
+
+.dots{
+    
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    
+}
+.top{
+    display: flex;
+    
+
+    width: 300px;
+    align-items: center;
+    
+}
+
+.top-container{
+    height:65px;
+    width: 500px;
+    line-height: 22px;
+    position: relative;
+    
+    border-top: 0;
+}
+
+.name{
+    padding-left: 10px;
+}
+
+.post{
+    width: 500px;
+    
+    
+}
+
+.bottom-container{
+    height: 40px;
+    width: 500px;
+    
+    flex-direction: row;
+    display: flex;
+    position: relative;
+}
+
+.left-section{
+    width: 130px;
+    height:40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.heart{
+    height: 20px;
+}
+
+.reply{
+    height:23px;
+}
+
+.share{
+    height: 20px;
+}
+
+.right-section{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+
+    
+   
+    
+}
+
+.save{
+    height: 20px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    align-items: center;
+
+
+}
+.like-container{
+    height: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.liked{
+    border-radius: 100px;
+    height: 25px;
+    
+}
+
+.liked-by{
+    padding-left: 6px;
+}
+
+.caption-container{
+    height: 60px;
+    width: 490px;
+    border-top: 0;
+
+}
+
+.instagram-post{
+    height: 915px;
+    position: relative;
+    
+
+    width: 500px;
+    font-family: 'Open Sans',sans-serif;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    margin-top: 20px;
+    
+    
+    
+
+}
+.smiley{
+    height: 25px;
+    padding-right: 13px;
+   
+    
+}
+
+.reaction{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    margin-left: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+
+    
+    
+}
+.user-comment{
+    padding-right: 240px;
+    font-size:  15px;
+    border: none;
+    
+}
+
+.comments-heading{
+    color: gray;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.time{
+    color: gray;
+    font-size: 13px;
+}
+
+.post-button{
+    background-color: white;
+    font-weight: bold;
+    color: #458eff;
+    border: none;
+    font-size: 17px;
+    padding-right: 0;
+    margin-left: -10px;
+    
+    
+}
+
+.like-heart{
+    height: 10px;
+    position:absolute;
+    right: 8px;
+}
+
+.comment-1, .comment-2{
+    margin: 0;
+    margin-bottom: 2px;
+    position:relative;
+
+}
+
+.bottom-total{
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

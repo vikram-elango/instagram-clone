@@ -1,0 +1,129 @@
+.instagram-header{
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 2px;
+    box-shadow:  0px 0px 0px rgba(0,0,0,0.05);
+    height:70px;
+    position: absolute;
+    border-top: 0;
+    left: 0;
+    right: 0;
+    top:0;
+    border-left: 0;
+    border-right: 0;
+
+        
+    }
+
+
+    .instagram-header{
+        display: flex;
+        align-items: center;
+        
+        position:fixed;
+        background-color: white;
+        z-index: 1000;
+        flex:1;
+        
+    }
+
+    .logo{
+        height: 30px;
+        position: absolute;
+        right: 0;
+
+        
+    }
+
+    .left-section-2{
+        padding-left: 10px;
+        width: 100px;
+        display:flex;
+        flex:1;
+        position: relative;
+        align-items: center;
+        margin-right: 60px;
+    }
+
+    .middle-section{
+        display: flex;
+        align-items: center;
+        flex:1;
+        opacity: 1;
+    
+        
+
+    }
+
+    @media(max-width:1000px)
+    {
+        .middle-section{
+            display: none;
+
+        }
+
+    }
+
+    .text{
+        border: none;
+        padding: 17px;
+        padding-right: 140px;
+        border-radius: 7px;
+        margin-left: 80px;
+            }
+
+    .right-section-2{
+        
+        display: flex;
+        flex-direction: row;
+        align-items: right;
+        height: 40px;
+        width: 500px; 
+        align-items: center;
+        justify-content: space-evenly; 
+        margin-left: 10px;
+        flex: 1;
+        margin-right: 200px;
+    }
+
+   ._ab6-{
+       height: 60px;
+   }
+   ._ab6-2{
+       height: 60px;
+       display: flex;
+       align-items: center;
+       position: relative;
+   }
+
+   .pfp{
+       height: 30px;
+       border-radius: 100px;
+   }
+
+   .notif{
+    position: absolute;
+    font-family: Sans;
+    background-color: red;
+    color:white;
+    font-size: 15px;
+    border-radius:20px;
+    right: -6px;
+    top:-5px;
+    padding-right:  5px;
+    padding-left: 5px;
+    padding-top:1px;;
+    padding-bottom: 1px;
+
+       
+       
+   }
+
+   .user{
+       margin:0;
+       font-size: 14px;
+       padding-left: 10px;
+   }
+
+  

@@ -1,0 +1,83 @@
+.profile-contents{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    
+}
+
+.dot{
+    height: 30px
+}
+
+.text-contents{
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-contents-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    width: 400px;
+    
+}
+
+.pic{
+    height: 170px;
+    border-radius: 100px;
+    
+
+}
+.pic-container{
+    display: flex;
+    align-items: center;
+}
+
+.text-side{
+    margin-left: 100px;
+   
+}
+
+.container{
+    
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+.message{
+    background-color: white;
+    padding:8px;
+    margin-left: 30px;
+
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);   
+}
+
+.follow{
+    
+    background-color: white;
+    padding:8px;
+    margin-left: 10px;
+
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    border-radius: 4px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);   
+
+}
+
+.followedby{
+    color: gray;
+}
+
+.text-contents-5{
+    font-size: 12px;
+}

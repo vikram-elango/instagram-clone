@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+       
+        <style>
+            .instagram-box{
+                border-style: solid;
+                height: 370px;
+                width: 350px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border:none;
+                border-color: rgb(192,192,192);
+                border-radius: 2px;
+                box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+                border-width: 0.1px;
+                border-style: solid;
+                
+
+            }
+            .body{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 800px;
+                font-family: sans-serif;
+                
+            }
+
+            .text{
+                height:36px;
+                width: 260px;
+                margin: 3px;
+                border:none;
+                border-color: rgb(192,192,192);
+                border-radius: 2px;
+                box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+                border-width: 0.1px;
+                border-style: solid;
+                padding-left: 12px;
+                font-family: sans-serif;
+
+                            
+            }
+
+            .login{
+                width: 268px;
+                height: 36px;
+                border-radius: 5px;
+                background: rgb(0, 149, 246);
+                color: white;
+                margin-top: 20px;
+                border:none;
+                font-family: sans-serif;
+                font-weight: bold;
+
+            }
+
+            .login:hover{
+                cursor: pointer;
+
+            }
+
+          
+              
+
+            .logo{
+                height: 50px;
+                margin-bottom: 40px;
+            }
+
+            .eye{
+                height: 20px;
+            }
+            .pass{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                margin-right: 0px;
+
+                
+
+            }
+
+            .material-icons{
+                margin-left: -40px;
+            }
+
+            .material-icons:hover{
+                cursor: pointer;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="body">
+            <div class="instagram-box">
+                <img class="logo"src="posts/v1kkstagram.png">
+                <input id="username" class="text" type="text"placeholder="Phone number, username, or email">
+                <div class="pass"><input id="password"class="text"type="text"placeholder="Password">
+                  <i id="visibility"><span id="icon" class="material-icons">   visibility </span></i>  
+                </div>
+                
+                <button class="login" type="button" onclick="getInfo()">Login</button>
+
+
+            </div>
+
+        </div>
+        
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
